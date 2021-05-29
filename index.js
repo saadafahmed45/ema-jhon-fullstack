@@ -76,7 +76,7 @@ app.post('/addOrder',(req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! DB Is Connect with Heroku')
 })
 
 app.listen(process.env.PORT || port)
